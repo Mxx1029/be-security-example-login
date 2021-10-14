@@ -1,0 +1,22 @@
+GET http://localhost:3123
+// fail request
+
+###
+
+POST http://localhost:3123/register
+Content-Type: application/json
+
+{
+    "username": "globaluser8",
+    "password": "rattlesnake123"
+}
+
+###
+
+POST http://localhost:3123/login
+Content-Type: application/json
+
+{
+    "username": "globaluser8",
+    "password": "rattlesnake123"
+}
